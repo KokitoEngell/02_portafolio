@@ -1,0 +1,39 @@
+GUÍA RÁPIDA: CÓMO SUBIR TUS CAMBIOS A GITHUB
+===================================================
+
+Cada vez que hagas cambios en tu código (creas nuevos archivos, modificas los existentes o eliminas algo) y quieras guardarlos en GitHub, debes abrir tu terminal asegurándote de estar en la carpeta de tu proyecto.
+
+Luego, ejecuta estos 3 comandos en el siguiente orden:
+
+PASO 1: PREPARAR LOS CAMBIOS
+---------------------------------------------------
+Este comando le dice a Git que registre todos los archivos que han cambiado desde la última vez.
+
+git add .
+
+Nota: El punto (.) significa "todo". Asegúrate de poner el espacio entre "add" y el punto.
+
+
+PASO 2: GUARDAR LOCALMENTE (COMMIT)
+---------------------------------------------------
+Este comando empaqueta tus cambios con una etiqueta o mensaje descriptivo. Es útil para recordar qué modificaste en el futuro.
+
+git commit -m "Aquí escribes lo que cambiaste"
+
+Ejemplo: git commit -m "Añadí la sección sobre mí y corregí colores"
+
+
+PASO 3: SUBIR A GITHUB (PUSH)
+---------------------------------------------------
+Por último, este comando toma el "paquete" de cambios que acabas de guardar localmente y lo envía a los servidores de GitHub en internet.
+
+git push
+
+---------------------------------------------------
+
+RESUMEN RÁPIDO PARA TU DÍA A DÍA:
+(Puedes copiar y pegar esta secuencia, solo recuerda cambiar el mensaje)
+
+git add .
+git commit -m "Actualización del proyecto"
+git push
