@@ -1,0 +1,12 @@
+{
+  "name": "VICTOR_ROBLES.SYS",
+  "description": "High-end Cyberpunk Vanguardista portfolio and system terminal.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "AI-powered terminal",
+    "Real-time data visualization",
+    "Full-stack architecture"
+  ]
+}
